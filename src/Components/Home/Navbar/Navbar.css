@@ -1,0 +1,14 @@
+.navbar-border {
+    box-shadow: 0px 3px 3px #0000001A;
+   
+}
+/* .navbar-border:hover{
+    display:inline-block;
+    backface-visibility: hidden;
+    vertical-align: middle;
+    position:relative;
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    tranform: translateZ(0);
+    transition-duration: .3s;
+    transition-property:transform;
+  } */

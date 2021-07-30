@@ -1,0 +1,50 @@
+[
+    {   
+        "_id": 1,
+        "title": "NFT Art Name",
+       
+        "imgUrl": "https://lh3.googleusercontent.com/GZ-yxT6KSqc6MnAM8SG9I-xUpf_voiHZzzomn1fAJ789ZSaNCMih4UdWivu5bdyviCqFwRGw1K_zQS2S5ai5ZgQX=s250",
+     
+        "price": "5.0 ETH"
+    },
+    {   
+        "_id": 2,
+        "title": "NFT Art Name",
+       
+        "imgUrl": "https://lh3.googleusercontent.com/6ulH5wWWPvD4_9yp6530N8v0x8EsAoWla0REXQKaS7tL4Qai8OVgoyGAMGqMglnPSUGBJ4pkym6Ag98hBgPAD27JRw=s250",
+     
+        "price": "5.0 ETH"
+    },
+    {   
+        "_id": 3,
+        "title": "NFT Art Name",
+       
+        "imgUrl": "https://img.rarible.com/prod/image/upload/t_big/prod-itemImages/0xda98f59e1edecb2545d7b07b794e704ed6cf1f7a:225",
+     
+        "price": "5.0 ETH"
+    },
+    {   
+        "_id": 4,
+        "title": "NFT Art Name",
+       
+        "imgUrl": "https://lh3.googleusercontent.com/GZ-yxT6KSqc6MnAM8SG9I-xUpf_voiHZzzomn1fAJ789ZSaNCMih4UdWivu5bdyviCqFwRGw1K_zQS2S5ai5ZgQX=s250",
+     
+        "price": "5.0 ETH"
+    },
+    {
+        "_id": 5,
+        "title": "NFT Art Name",
+       
+        "imgUrl": "https://img.rarible.com/prod/image/upload/t_big/prod-itemImages/0x7fe96546314f3336fa838020b36ad01ed28be2f2:10",
+     
+        "price": "5.0 ETH"
+    },
+    {
+        "_id": 6,
+        "title": "NFT Art Name",
+       
+        "imgUrl": "https://lh3.googleusercontent.com/GZ-yxT6KSqc6MnAM8SG9I-xUpf_voiHZzzomn1fAJ789ZSaNCMih4UdWivu5bdyviCqFwRGw1K_zQS2S5ai5ZgQX=s250",
+     
+        "price": "5.0 ETH"
+    }
+]
