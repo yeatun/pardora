@@ -2,13 +2,30 @@
     box-shadow: 0px 3px 3px #0000001A;
    
 }
-/* .navbar-border:hover{
-    display:inline-block;
-    backface-visibility: hidden;
-    vertical-align: middle;
-    position:relative;
-    box-shadow: 0 0 1px rgba(0,0,0,0);
-    tranform: translateZ(0);
-    transition-duration: .3s;
-    transition-property:transform;
-  } */
+
+  a {
+ 
+    text-transform: uppercase;
+    /* text-decoration: none; */
+    letter-spacing: 0.10em;
+    
+
+    
+    position: relative;
+  }
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }

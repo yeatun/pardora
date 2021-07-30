@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Navbar2.css'
 const Navbar2 = () => {
     return (
         <nav class="m-2  border-bottom navbar navbar-expand-lg navbar-light ">
@@ -20,7 +20,7 @@ const Navbar2 = () => {
       
          
           <div
-            class="collapse navbar-collapse  justify-content-center"
+            class="navbar2  collapse navbar-collapse  justify-content-center"
             id="navbarCenteredExample"
           >
            
@@ -39,7 +39,7 @@ const Navbar2 = () => {
             </ul>
           
           </div>
-        <ul class="bg-light shadow navbar-nav mb-2 mb-lg-0">
+        <ul class="bg-light nav shadow navbar-nav mb-2 mb-lg-0">
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"

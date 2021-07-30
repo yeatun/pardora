@@ -2,12 +2,12 @@ import React from 'react';
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
-
+import imgage from '../../images/Screenshot (145).png'
 const Navbar = () => {
     return (
         <nav className="navbar-border navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-            <a className="navbar-brand">PANDORA</a>
+            <a className="navbar-brand" ><img style={{width:'10rem'}} src={imgage} alt="" /></a>
             </div>
 
   <div className="container-fluid">

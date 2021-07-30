@@ -1,0 +1,11 @@
+a {
+ 
+    text-transform: uppercase;
+    /* text-decoration: none; */
+    letter-spacing: 0.10em;
+  
+    position: relative;
+  }
+  nav {
+        padding-left: 5rem;
+  }
