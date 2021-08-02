@@ -26,7 +26,7 @@ console.log(result.title);
             <div className="container m-5">
             <div className="row ">
                 <div className="col-sm-6 col-md-5 col-lg-6">
-                <img style={{width:'25rem'}} src={result.imgUrl} alt="" />
+                <img style={{width:'35rem',borderRadius:'20px'}} src={result.imgUrl} alt="" />
                 <div className="col-md-4 justify-content-center  ">
       <div className='mt-5' style={{width:'25rem'}}>
       
@@ -34,7 +34,7 @@ console.log(result.title);
         <div className="shadow d-flex ">
            
            
-            <img className="me-3" src={img1} alt="" width="60" height="55"/>
+            <img className="me-3" src={img1} alt="" width="100" height="60"/>
             <div>
                 
             <h6 >harry kane</h6>
@@ -50,7 +50,7 @@ console.log(result.title);
         <div className="shadow d-flex " >
            
            
-            <img className="me-3" src={img2} alt="" width="60" height="55"/>
+            <img className="me-3" src={img2} alt="" width="100" height="60"/>
             <div>
                 
             <h6 >harry kane</h6>
@@ -63,6 +63,7 @@ console.log(result.title);
    </div>
                 </div>
                 <div className="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
+                    <p>10 june 2021</p>
                     <h2>{result.title}</h2>
                     <p>A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.   
                     As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.</p>
@@ -79,7 +80,7 @@ console.log(result.title);
       <th scope="col">Date</th>
     </tr>
   </thead>
-  <tbody className='shadow'>
+  <tbody className='shadow m-5'>
     <tr>
     
       <td> <div className='mt-3' style={{width:'12rem'}}>
@@ -116,7 +117,7 @@ console.log(result.title);
     </div></td>
       <td><h6 className='mt-3' style={{width:'15rem'}} >10am,21jun 21</h6></td>
     </tr>
-    <tr>
+    <tr >
      
       <td><div className='mt-3' style={{width:'12rem'}}>
       

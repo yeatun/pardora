@@ -11,14 +11,14 @@ const Navbar = () => {
             </div>
 
   <div className="container-fluid">
-  <form className="d-flex input-group w-auto">
+  <form className="d-flex search input-group w-auto">
   <span className="input-group-text border-0" id="search-addon">
       <FontAwesomeIcon icon={faSearch} />
       </span>
       <input
       
         type="search"
-        class="form-control rounded"
+        class="form-control rounded "
         placeholder="Search"
         aria-label="Search"
         aria-describedby="search-addon"
@@ -40,13 +40,13 @@ const Navbar = () => {
 
     <div className="collapse navbar-collapse" id="navbarRightAlignExample">
 
-      <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+      <ul className="navbar-nav navi ms-auto me-5 mb-2 mb-lg-0">
        
        
       
-        <li className="nav-item dropdown">
+        <li className="nav-item me-5   dropdown ">
           <a
-            className="nav-link dropdown-toggle"
+            className="nav-link dropdown-toggle "
             href="#"
             id="navbarDropdown"
             role="button"
@@ -56,16 +56,16 @@ const Navbar = () => {
             Discover
           </a>
        
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <ul className="dropdown-menu " aria-labelledby="navbarDropdown">
             <li>
-              <a className="dropdown-item" href="#">Action</a>
+              <a className="dropdown-item  " href="#">Action</a>
             </li>
             <li>
-              <a className="dropdown-item" href="#">Another action</a>
+              <a className="dropdown-item " href="#">Another action</a>
             </li>
-            <li><hr class="dropdown-divider" /></li>
+            <li><hr className="dropdown-divider " /></li>
             <li>
-              <a className="dropdown-item" href="#">Something else here</a>
+              <a className="dropdown-item " href="#">Something else here</a>
             </li>
           </ul>
         </li>
@@ -98,7 +98,7 @@ const Navbar = () => {
         
       
       </ul>
-      <button type="button" class="btn btn-outline-info">Create NFT</button>
+      <button type="button" className='button'>Create NFT</button>
      
     </div>
   

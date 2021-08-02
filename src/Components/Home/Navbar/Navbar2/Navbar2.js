@@ -24,22 +24,22 @@ const Navbar2 = () => {
             id="navbarCenteredExample"
           >
            
-            <ul class=" navbar-nav mb-2   mb-lg-0">
+            <ul class=" navbar-nav mb-2 bar   mb-lg-0">
               <li class="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Newest</a>
+                <a className="nav-link bar active" aria-current="page" href="#">Newest</a>
               </li>
               <li class="nav-item">
-                <a className="nav-link active" href="#">Oldest</a>
+                <a className="nav-link bar active" href="#">Oldest</a>
               </li>
               <li class="nav-item">
-                <a className="nav-link active" href="#">Recent Solid</a>
+                <a className="nav-link bar active" href="#">Recent Solid</a>
               </li>
             
              
             </ul>
           
           </div>
-        <ul class="bg-light nav shadow navbar-nav mb-2 mb-lg-0">
+        <ul class="bg-light nav bor me-5 navbar-nav mb-2 mb-lg-0">
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
@@ -67,7 +67,7 @@ const Navbar2 = () => {
         </li>
         
         </ul>
-        <ul class="bg-light shadow navbar-nav mb-2 mb-lg-0">
+        <ul class="bg-light bor me-5 navbar-nav mb-2 mb-lg-0">
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
